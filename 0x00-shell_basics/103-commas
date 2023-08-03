@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | grep -v "/$" | sort -k1.1d -k1.2n -k1.3d -t"/" | tr '\n' ',';echo
+ls -xamp
