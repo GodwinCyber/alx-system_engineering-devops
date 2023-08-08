@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty "%P\n" -o -type f -empty "%P\n"
+find . -depth -empty -printf %f'\n'
