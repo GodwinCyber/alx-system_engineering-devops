@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # displey the content of the current directory
 
-lst=$(ls)
-for i in $lst
+list=$(ls)
+for i in $list
 do
 	echo "$i" | cut -d '-' -f2
 done
