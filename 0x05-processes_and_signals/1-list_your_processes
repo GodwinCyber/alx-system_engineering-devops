@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Display the current running process include terminal time
+# Show proces hierarchy
+# Display in human oriented format
+
+ps -auxf
