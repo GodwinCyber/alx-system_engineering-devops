@@ -3,7 +3,7 @@
 
 file_path { 'Authentications':
              ensure => 'present',
-             path => '/etc/ssh/ssh_config'
+             path => '/etc/ssh/ssh_config',
 content => "
              #SSH configuration
              HOST*
