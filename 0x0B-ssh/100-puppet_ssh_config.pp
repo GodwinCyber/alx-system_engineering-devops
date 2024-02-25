@@ -3,7 +3,7 @@
 
 file_path { '/etc/ssh/ssh_config':
              ensure => 'present',
-content => "
+content =>"
              #SSH configuration
              host*
              PasswordAuthentication no
