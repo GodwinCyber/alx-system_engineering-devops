@@ -5,8 +5,8 @@ file_path { '/etc/ssh/ssh_config':
              ensure => 'present',
 content => "
              #SSH configuration
-             HOST*
+             host*
              PasswordAuthentication no
              IdentityFile ~/.ssh/school
-            "
+            ",
 }
