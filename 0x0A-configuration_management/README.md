@@ -47,4 +47,3 @@ You do not need to attempt to upgrade versions. This project is simply a set of 
 Puppet 5 Docs
 
 Install puppet-lint
-$ gem install puppet-lint
