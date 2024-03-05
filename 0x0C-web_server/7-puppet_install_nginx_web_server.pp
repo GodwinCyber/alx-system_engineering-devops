@@ -1,24 +1,21 @@
-#Puppet manifest to install nginx1
+# Automating project requirements using Puppet
+
 package { 'nginx':
-  ensure   => 'latest',
-  name     => 'nginx',
-  provider => 'apt'
+  ensure => installed,
 }
 
-#Check if nginx service is running
+file_line { 'install':
+  ensure => 'present',
+  path   => '/etc/nginx/sites-enabled/default',
+  after  => 'listen 80 default_server;',
+  line   => 'rewrite ^/redirect_me https://www.github.com/GodwinCyber permanent;',
+}
+
+file { '/var/www/html/index.html':
+  content => 'Hello World!',
+}
+
 service { 'nginx':
-  ensure => running,
-  enable => true
-}
-
-#Check redirection to youtube page
-exec { 'redirec':
-  provider => 'shell',
-  command  => 'sudo sed -i "/server_name _;/ a\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default'
-}
-
-#Check page info
-exec { 'index':
-  provider => 'shell',
-  command  => 'echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html'
+  ensure  => running,
+  require => Package['nginx'],
 }
