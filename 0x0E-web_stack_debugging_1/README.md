@@ -1,4 +1,4 @@
-# <a 0x0E. Web stack debugging #1="0x0E. Web stack debugging #1"></a>0x0E. Web stack debugging #1
+# <h1>0x0E. Web stack debugging #1</h1>
 DevOps SysAdmin Scripting Debugging
 
 # <a Concepts="Concepts"></a>Concepts
@@ -8,8 +8,8 @@ For this project, we expect you to look at these concepts:
 # <a href="https://www.techtarget.com/searchnetworking/definition/protocol">Network basics</a>
 # <a href="https://intranet.alxswe.com/concepts/68">Web stack debugging</a>
 
-# <h1 Requirements></h1>
-# <h2 General="General"></h2>General
+<h2>Requirements</h2>
+# <a General="General"></a>General
 <p>Allowed editors: vi, vim, emacs
 All your files will be interpreted on Ubuntu 20.04 LTS
 All your files should end with a new line
