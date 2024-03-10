@@ -1,11 +1,11 @@
 <h1>0x10. HTTPS SSL</h1>
 DevOps, SysAdmin,Security
 <h2>Concepts</h2>
-For this project, we expect you to look at these concepts:
+For this project, we expect you to look at these concepts:<br>
 <a href="https://intranet.alxswe.com/concepts/12">DNS</a><br>
 <a href="https://intranet.alxswe.com/concepts/68">Web stack debugging</a><br>
 <h2>Resources</h2>
-Read or Watch
+Read or Watch<br>
 <a href="https://www.instantssl.com/http-vs-https">Waht is HTTPS</a><br>
 <a href="https://www.sslshopper.com/why-ssl-the-purpose-of-using-ssl-certificates.html">
 What are the 2 main elements that SSL is providing</a><br>
