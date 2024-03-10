@@ -9,7 +9,7 @@ Read or Watch<br>
 <a href="https://www.instantssl.com/http-vs-https">Waht is HTTPS</a><br>
 <a href="https://www.sslshopper.com/why-ssl-the-purpose-of-using-ssl-certificates.html">
 What are the 2 main elements that SSL is providing</a><br>
-<a href="https://docs.ionos.com/cloud/">HAProxy SSL termination on Ubuntu16.04></a><br>
+<a href="https://docs.ionos.com/cloud/">HAProxy SSL termination on Ubuntu16.04</a><br>
 <a href="https://en.wikipedia.org/wiki/TLS_termination_proxy">SSL termination</a><br>
 <a href="https://tldp.org/LDP/abs/html/complexfunct.html">Bash function</a><br>
 <h3>General</h3>
