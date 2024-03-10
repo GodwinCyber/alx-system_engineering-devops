@@ -2,11 +2,11 @@
 DevOps, SysAdmin,Security
 <h2>Concepts</h2>
 For this project, we expect you to look at these concepts:
-<a href="https://intranet.alxswe.com/concepts/12">DNS</a>
-<a href="https://intranet.alxswe.com/concepts/68">Web stack debugging</a>
+<a href="https://intranet.alxswe.com/concepts/12">DNS</a><br>
+<a href="https://intranet.alxswe.com/concepts/68">Web stack debugging</a><br>
 <h2>Resources</h2>
 Read or Watch
-<a href="https://www.instantssl.com/http-vs-https">Waht is HTTPS</a>
+<a href="https://www.instantssl.com/http-vs-https">Waht is HTTPS</a><br>
 <a href="https://www.sslshopper.com/why-ssl-the-purpose-of-using-ssl-certificates.html">
 What are the 2 main elements that SSL is providing</a><br>
 <a href="https://docs.ionos.com/cloud/">HAProxy SSL termination on Ubuntu16.04></a><br>
