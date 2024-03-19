@@ -3,7 +3,7 @@ DevOps, SysAdmin,Security
 <h2>Concepts</h2>
 <em>For this project, we expect you to look at these concepts:</em><br>
 <a href="https://intranet.alxswe.com/concepts/68">Web stack debugging</a><br>
-<p><img src="284/V1HjQ1Y.png" alt="" loading='lazy' style=""></p>
+<p><img src="V1HjQ1Y.png" alt="" loading='lazy' style=""></p>
 <h2>Background Context</h2>
 
 <h3>Your servers without a firewall&hellip;</h3>
