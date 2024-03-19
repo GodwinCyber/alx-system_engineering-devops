@@ -7,7 +7,7 @@ DevOps, SysAdmin,Security
 
 <h3>Your servers without a firewall&hellip;</h3>
 
-<p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/155/holbertonschool-firewall.gif" alt="" loading='lazy' style="" /></p>
+<p><img src="holbertonschool-firewall.gif" alt="" loading='lazy' style="" /></p>
 <h2>Resources</h2>
 Read or Watch<br>
 <a href="https://en.wikipedia.org/wiki/Firewall_%28computing%29">What is a firewall</a><br>
