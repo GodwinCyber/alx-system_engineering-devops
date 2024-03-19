@@ -3,6 +3,11 @@ DevOps, SysAdmin,Security
 <h2>Concepts</h2>
 <em>For this project, we expect you to look at these concepts:</em><br>
 <a href="https://intranet.alxswe.com/concepts/68">Web stack debugging</a><br>
+<h2>Background Context</h2>
+
+<h3>Your servers without a firewall&hellip;</h3>
+
+<p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/155/holbertonschool-firewall.gif" alt="" loading='lazy' style="" /></p>
 <h2>Resources</h2>
 Read or Watch<br>
 <a href="https://en.wikipedia.org/wiki/Firewall_%28computing%29">What is a firewall</a><br>
