@@ -28,6 +28,6 @@ if __name__ == "__main__":
             write = csv.writer(file, quoting=csv.QUOTE_ALL)
             for task in todos:
                 write.writerow(
-                    [employee_id, user["username"], \
+                    [employee_id, user["username"],
                      task["completed"], task["title"]]
                 )
