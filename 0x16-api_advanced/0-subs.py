@@ -12,8 +12,8 @@ def number_of_subscribers(subreddit):
         (by /u/HousingBorn8812)'
         }
     url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
-    res = requests.get(url, headers=headers, allow_redirects=False)
-    if res.status_code == 200:
-        data = res.json()
+    response = requests.get(url, headers=headers, allow_redirects=False)
+    if response.status_code == 200:
+        data = response.json()
         return data['data']['subscribers']
     return
