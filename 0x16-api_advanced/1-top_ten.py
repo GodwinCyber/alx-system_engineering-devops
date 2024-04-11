@@ -12,7 +12,7 @@ def top_ten(subreddit):
      """
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {
-        "python:subreddit.subscriber.counter:v1.0 \
+        "User-Agent":"python:subreddit.subscriber.counter:v1.0 \
         (by /u/HousingBorn8812)"
     }
     params = {
