@@ -1,6 +1,25 @@
 <h1>0x1B. Web stack debugging #4</h1>
 
-<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<pre><code>DevOps SysAdmin Scripting Debugging</code></pre>
+<p><img src="frdkCrb.jpg" alt="" loading='lazy' style="" /></p>
 
-<div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[{&quot;id&quot;:6,&quot;value&quot;:&quot;DevOps&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:23,&quot;value&quot;:&quot;SysAdmin&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:28,&quot;value&quot;:&quot;Scripting&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:31,&quot;value&quot;:&quot;Debugging&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;}]}" data-react-cache-id="tags/Tags-0"></div>
+<h2>Requirements</h2>
+
+<h3>General</h3>
+
+<ul>
+<li>All your files will be interpreted on Ubuntu 14.04 LTS</li>
+<li>All your files should end with a new line</li>
+<li>A <code>README.md</code> file at the root of the folder of the project is mandatory</li>
+<li>Your Puppet manifests must pass <code>puppet-lint</code> version 2.1.1 without any errors</li>
+<li>Your Puppet manifests must run without error</li>
+<li>Your Puppet manifests first line must be a comment explaining what the Puppet manifest is about</li>
+<li>Your Puppet manifests files must end with the extension <code>.pp</code> </li>
+<li>Files will be checked with Puppet v3.4</li>
+</ul>
+
+<h3>Install <code>puppet-lint</code></h3>
+
+<pre><code>$ apt-get install -y ruby
+$ gem install puppet-lint -v 2.1.1
+</code></pre>
